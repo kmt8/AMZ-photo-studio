@@ -17,7 +17,7 @@
     <body>
 
         <!-- Start Header -->
-        <header>
+        <header id="home">
             <!-- Start navbar -->
             <nav class="navbar navbar-expand-lg fixed-top ">
                 <a href="index.html" class="navbar-brand text-light  mx-3">
@@ -33,13 +33,13 @@
 
                 <div id="nav" class="navbar-collapse collapse justify-content-end text-uppercae fw-bolder">
                     <ul class="navbar-nav"> 
-                        <li class="navbar-item"><a href="#" class="nav-link m-2 menuitems">Home</a></li> 
-                        <li class="navbar-item"><a href="#" class="nav-link m-2 menuitems">Mission</a></li>
-                        <li class="navbar-item"><a href="#" class="nav-link m-2 menuitems">Collection</a></li>
-                        <li class="navbar-item"><a href="#" class="nav-link m-2 menuitems">Gallery</a></li>
-                        <li class="navbar-item"><a href="#" class="nav-link m-2 menuitems ">Customer</a></li>
-                        <li class="navbar-item"><a href="#" class="nav-link m-2 menuitems ">Pricing</a></li>
-                        <li class="navbar-item"><a href="#" class="nav-link m-2 menuitems">Contact</a></li>
+                        <li class="navbar-item"><a href="#home" class="nav-link m-2 menuitems">Home</a></li> 
+                        <li class="navbar-item"><a href="#mission" class="nav-link m-2 menuitems">Mission</a></li>
+                        <li class="navbar-item"><a href="#collection" class="nav-link m-2 menuitems">Collection</a></li>
+                        <li class="navbar-item"><a href="#gallery" class="nav-link m-2 menuitems">Gallery</a></li>
+                        <li class="navbar-item"><a href="#customer" class="nav-link m-2 menuitems ">Customer</a></li>
+                        <li class="navbar-item"><a href="#pricing" class="nav-link m-2 menuitems ">Pricing</a></li>
+                        <li class="navbar-item"><a href="#contact" class="nav-link m-2 menuitems">Contact</a></li>
                     </ul>
                 </div>
 
@@ -59,7 +59,7 @@
 
 
         <!-- Start Mission Section -->
-        <section class="p-5 missions">
+        <section id="mission" class="p-5 missions">
             <div class="container-fluid">
                 <!-- Start title  -->
                 <div class="row text-white text-center">
@@ -116,7 +116,7 @@
 
 
         <!-- Start Collection Section -->
-        <section class="bg-secondary py-5">
+        <section id="collection" class="bg-secondary p-5">
             <div class="container-fluid">
                 <!-- Start title -->
                 <div class="row text-white text-center">
@@ -192,7 +192,7 @@
 
 
         <!-- Start Galley Section -->
-        <section class="py-5">
+        <section id="gallery" class="p-5">
            <div class="container-fluid">
                <!-- Start title -->
                <div class="row text-muted text-center">
@@ -224,17 +224,180 @@
                         <div class="filters pro"><img src="./assets/img/gallery/photo9.jpg" width="300px" alt="fphoto9"/></div>
                         <div class="filters new"><img src="./assets/img/gallery/photo10.jpg" width="300px" alt="fphoto10"/></div>
                         <div class="filters new"><img src="./assets/img/gallery/photo11.jpg" width="300px" alt="fphoto11"/></div>
-                        <div class="filters new"><img src="./assets/img/gallery/photo12.jpg" width="300px" alt="fphoto12"/></div>
+                        <div class="filters free"><img src="./assets/img/gallery/photo12.jpg" width="300px" alt="fphoto12"/></div>
                         <div class="filters free"><img src="./assets/img/gallery/photo13.jpg" width="300px" alt="fphoto13"/></div>
-                        <div class="filters free"><img src="./assets/img/gallery/photo14.jpg" width="300px" alt="fphoto14"/></div>
+                        <div class="filters pro"><img src="./assets/img/gallery/photo14.jpg" width="300px" alt="fphoto14"/></div>
                         <div class="filters pro"><img src="./assets/img/gallery/photo15.jpg" width="300px" alt="fphoto15"/></div>
-                        <div class="filters pro"><img src="./assets/img/gallery/photo16.jpg" width="300px" alt="fphoto16"/></div>
                     </div>
                 </div>
 
            </div> 
         </section>
         <!-- End Galley Section -->
+
+
+        <!-- Start Customer Section -->
+        <section id="customer" class="p-5 customers">
+            <div class="container-fluid">
+                <!-- Start title -->
+               <div class="row text-white text-center">
+                <div class="col-12">
+                    <h1 class="display-4 mb-4">Our Customers</h1>
+                    <div class="mb-4 darkunderlines"></div>
+                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                </div>
+                </div>
+                <!-- End title -->
+
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <div id="customercarousels" class="carousel slide" data-bs-ride="carousel">
+
+                            <ol class="carousel-indicators">
+                                <li class="active" data-bs-target="#customercarousels" data-bs-slide-to="0"></li>
+                                <li data-bs-target="#customercarousels" data-bs-slide-to="1"></li>
+                                <li data-bs-target="#customercarousels" data-bs-slide-to="2"></li>
+                            </ol>
+
+                            <div class="carousel-inner text-center">
+
+                                <div class="carousel-item active">
+                                    <img src="./assets/img/users/user1.jpg" class="img-fluid rounded-circle my-4" width="150px" alt="user1"/>
+
+                                    <blockquote class="blockquote text-white">
+                                        <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    </blockquote>
+
+                                    <h5 class="text-white text-uppercase fw-bold mb-3">Ms.July</h5>
+
+                                    <ul class="list-inline mb-5">
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                    </ul>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="./assets/img/users/user2.jpg" class="img-fluid rounded-circle my-4" width="150px" alt="user3"/>
+
+                                    <blockquote class="blockquote text-white">
+                                        <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    </blockquote>
+
+                                    <h5 class="text-white text-uppercase fw-bold mb-3">Mr.Anton</h5>
+
+                                    <ul class="list-inline mb-5">
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                    </ul>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="./assets/img/users/user3.jpg" class="img-fluid rounded-circle my-4" width="150px" alt="user3"/>
+
+                                    <blockquote class="blockquote text-white">
+                                        <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                    </blockquote>
+
+                                    <h5 class="text-white text-uppercase fw-bold mb-3">Ms.Yoon</h5>
+
+                                    <ul class="list-inline mb-5">
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Customer Section -->
+
+
+        <!-- Start Pricing Section -->
+        <section id="pricing" class="bg-light p-5 text-center">
+            <div class="containter-fluid">
+                <!-- Start title -->
+               <div class="row text-muted text-center">
+                <div class="col-12">
+                    <h1 class="display-4 mb-4">Join Us Now</h1>
+                    <div class="mb-4 darkunderlines"></div>
+                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                </div>
+                </div>
+                <!-- End title -->
+
+                <div class="row">
+
+                    <div class="col-lg-4">
+                        <div class="card text-light cardones movefromlefts">
+                            <div class="card-body">
+                                <h5 class="text-uppercase fw-bold mb-5">Indoor Membership</h5>
+
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold py-4 carditems">Photoshop</li>
+                                    <li class="fw-bold py-4 carditems">After Effect</li>
+                                    <li class="fw-bold py-4 carditems">Graphic Design</li>
+                                    <li class="fw-bold py-4 carditems">Video Montage</li>
+                                    
+                                </ul>
+
+                                <a href="#" class="btn text-light text-uppercase cardbuttons">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card text-light cardtwos movefrombottons">
+                            <div class="card-body">
+                                <h5 class="text-uppercase fw-bold mb-5">Season Membership</h5>
+
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold py-4 carditems">Photoshop</li>
+                                    <li class="fw-bold py-4 carditems">After Effect</li>
+                                    <li class="fw-bold py-4 carditems">Graphic Design</li>
+                                    <li class="fw-bold py-4 carditems">Video Montage</li>
+                                    <li class="fw-bold py-4 carditems border-0">Transportation</li>
+                                </ul>
+
+                                <a href="#" class="btn text-light text-uppercase cardbuttons">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card text-light cardthrees movefromrights">
+                            <div class="card-body">
+                                <h5 class="text-uppercase fw-bold mb-5">Outdoor Membership</h5>
+
+                                <ul class="list-unstyled">
+                                    <li class="fw-bold py-4 carditems">Photoshop</li>
+                                    <li class="fw-bold py-4 carditems">After Effect</li>
+                                    <li class="fw-bold py-4 carditems">Graphic Design</li>
+                                    <li class="fw-bold py-4 carditems border-0">Video Montage</li>
+                                </ul>
+
+                                <a href="#" class="btn text-light text-uppercase cardbuttons">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End Pricing Section -->
 
 
 
