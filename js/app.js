@@ -100,3 +100,12 @@ function removeactiveitem(){
 }
 
 // End Galley Section
+
+
+// Start Footer Section
+
+const showyear = document.getElementById('showyear');
+const getfullyear = new Date().getUTCFullYear();
+showyear.textContent = getfullyear;
+
+// End Footer Section
