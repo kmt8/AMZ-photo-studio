@@ -51,6 +51,11 @@ header{
         color:#1a99e8 ;
     }
 
+    .navbar-toggler:focus{
+        outline: 0;
+        box-shadow: none;
+    }
+
     .lines1, .lines2, .lines3{
         width: 23px;
         height: 3px;
@@ -69,6 +74,15 @@ header{
 
     .changes .lines3{
         transform: rotate(45deg) translate(-5px,-6px);
+    }
+
+    @media (max-width:450px) {
+        .navbar-brand img{
+            width: 40px;
+        }
+        .navbar-brand span{
+            font-size: 13px;
+        }
     }
     /*End navbar*/
 
@@ -153,6 +167,12 @@ header{
         opacity: 1;
     }
 }
+
+@media (max-width:450px) {
+    .cameraimgs{
+        width: 250px;
+    }
+}
 /*End Mission Section*/
 
 
@@ -164,6 +184,15 @@ header{
 
 .cardshadows{
     box-shadow: 5px 8px 20px #444;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+     background-size: cover; 
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100%;
 }
 
 .headings{
@@ -203,6 +232,13 @@ header{
 
 .gallerylists.activeitems{
     color: #2492c5;
+}
+
+@media (max-width:450px) {
+    #gallery ul li{
+        font-size: 14px;
+        margin: 0 -5px;
+    }
 }
 
 /* End Gallery Section */
@@ -355,6 +391,19 @@ header{
     transform: translate(10px,10px);
 }
 
+@media (max-width:450px) {
+    .contacts{
+        background-image: linear-gradient(
+        105deg,
+        rgba(0,0,0,1) 0%,
+        rgba(0,0,0,0.9) 100%,
+        transparent 50%
+
+        ), url('../assets/img/etc/lady.jpg');
+        background-size: 100% 100%;
+    }
+}
+
 /* End Contact Section */
 
 
@@ -368,5 +417,11 @@ header{
 
 .footerlinks:hover{
     color: #1a99e8;
+}
+
+@media (max-width:450px) {
+    footer .copyright{
+        font-size: small;
+    }
 }
 /* End Footer Section */
