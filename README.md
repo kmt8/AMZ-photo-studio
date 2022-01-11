@@ -1,2 +1,5 @@
-AMZ-photo-studio
-Front-end Project
+# WDF project
+
+## Demo
+
+https://amzphotostudio.netlify.app/
