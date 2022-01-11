@@ -1,4 +1,4 @@
-# WDF project
+# AMZ Photo Studio
 
 ## Demo
 
